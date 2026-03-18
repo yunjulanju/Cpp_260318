@@ -3,6 +3,8 @@
 class UPlayer;
 class UMonster;
 class UDestination;
+class UWall;
+class UFloor;
 
 class UWorld
 {
@@ -10,10 +12,9 @@ public:
 	UWorld();
 	~UWorld();
 
-	char Wall = '*';
-	char Floor = ' ';
+	UWall* Walls;
+	UFloor* Floors;
 	UDestination* Destinations;
-
 	UPlayer* Players;
 	UMonster* Monsters;
 
