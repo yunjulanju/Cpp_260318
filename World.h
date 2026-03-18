@@ -20,5 +20,6 @@ public:
 	int XSize = 10;
 	int YSize = 10;
 
+	void GameOver();
 };
 

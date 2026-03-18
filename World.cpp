@@ -18,10 +18,13 @@ UWorld::UWorld()
 	Monsters->X = 8;
 	Monsters->Y = 8;
 
-
 }
 
 UWorld::~UWorld()
 {
 
+}
+
+void UWorld::GameOver()
+{
 }
