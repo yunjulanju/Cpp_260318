@@ -8,6 +8,6 @@ UMonster::~UMonster()
 {
 }
 
-void UMonster::MonsterMove()
+void UMonster::Move()
 {
 }

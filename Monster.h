@@ -9,6 +9,6 @@ public:
 	int X;
 	int Y;
 
-	void MonsterMove();
+	void Move();
 };
 

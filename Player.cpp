@@ -8,6 +8,6 @@ UPlayer::~UPlayer()
 {
 }
 
-void UPlayer::PlayerMove()
+void UPlayer::Move()
 {
 }

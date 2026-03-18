@@ -9,7 +9,7 @@ public:
 	int X;
 	int Y;
 
-	void PlayerMove();
+	void Move();
 
 };
 
