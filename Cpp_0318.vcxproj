@@ -123,26 +123,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="ClassicWeopon.cpp" />
     <ClCompile Include="Destination.cpp" />
     <ClCompile Include="Floor.cpp" />
     <ClCompile Include="FSM.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Skil.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Transition.cpp" />
     <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="ClassicWeopon.h" />
     <ClInclude Include="Destination.h" />
     <ClInclude Include="Floor.h" />
     <ClInclude Include="FSM.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Skil.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Transition.h" />
     <ClInclude Include="Wall.h" />
+    <ClInclude Include="Weapon.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
